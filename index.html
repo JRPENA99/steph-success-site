@@ -103,8 +103,9 @@
               <a class="link" href="#" aria-label="Open project">Open →</a>
             </div>
             <div class="project__thumb">
-  <a href="assets/pipeline-governance-framework.pdf" target="_blank" rel="noopener">
-    <img 
+<a href="#" class="open-pdf" data-pdf="assets/pipeline-governance-framework.pdf">
+  
+  <img 
       src="assets/pipeline-governance-cover.png" 
       alt="Pipeline Governance & Commercial Feedback Framework"
       class="project-image"
@@ -196,5 +197,14 @@
   </footer>
 
   <script src="script.js"></script>
+
+  <div id="pdfModal" class="pdf-modal">
+  <div class="pdf-modal-content">
+    <button class="pdf-close">&times;</button>
+    <iframe id="pdfViewer" src=""></iframe>
+  </div>
+</div>
+
+
 </body>
 </html>
