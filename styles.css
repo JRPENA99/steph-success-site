@@ -94,6 +94,7 @@ body{
 }
 
 /* CTA */
+/* CTA */
 .hero__cta{
   margin-top:26px;
   display:flex;
@@ -101,6 +102,7 @@ body{
   justify-content:center;
   flex-wrap:wrap;
 }
+
 .btn{
   display:inline-flex;
   align-items:center;
@@ -111,26 +113,30 @@ body{
   font-weight:700;
   text-decoration:none;
   border:1px solid transparent;
+  transition: all .2s ease;
+  cursor:pointer;
+}
+
+/* Primary (NAVY) */
+.btn-primary{
+  background:#1E3A5F;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.12);
   box-shadow: 0 12px 30px rgba(0,0,0,.25);
 }
 
-
-
-.btn-primary{ background: #ff2d55 !important; }
-  color:#fff;
-  font-weight:600;
-  border:none;
-  box-shadow:0 10px 25px rgba(79,70,229,.35);
-  transition:all .2s ease;
+.btn-primary:hover{
+  background:#274B78;
+  transform:translateY(-2px);
+  box-shadow:0 14px 35px rgba(0,0,0,.30);
 }
 
-
-
-
+/* Outline / subtle */
 .btn--ghost{
   background:transparent;
-  border:1px solid rgba(255,255,255,.3);
+  border:1px solid rgba(255,255,255,.30);
   color:#ffffff;
+  box-shadow:none;
 }
 
 .btn--ghost:hover{
@@ -139,28 +145,40 @@ body{
   transform: translateY(-2px);
 }
 
+/* Dark button */
 .btn--dark{
   background:rgba(8,14,24,.75);
   color:#fff;
-  border-color:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.18);
   box-shadow:none;
 }
 
+.btn--dark:hover{
+  background:rgba(8,14,24,.88);
+  transform: translateY(-2px);
+}
 
+/* Header/nav button variant */
+.btn--nav{
+  padding:10px 14px;
+  border-radius:10px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.14);
+  color:rgba(238,243,255,.92);
+  box-shadow:none;
+}
 
-.btn-primary:hover{
-  background:#4338ca;
-  transform:translateY(-2px);
-  box-shadow:0 14px 35px rgba(79,70,229,.45);
+.btn--nav:hover{
+  background:rgba(255,255,255,.10);
+  border-color:rgba(255,255,255,.22);
 }
 
 .btn:focus{
-  outline: none;
-  box-shadow: 0 0 0 4px rgba(79,70,229,.25);
+  outline:none;
+  box-shadow: 0 0 0 4px rgba(39,75,120,.30);
 }
 
-
-.btn:active{transform: translateY(0)}
+.btn:active{ transform: translateY(0); }
 
 /* Showcase */
 .showcase{
