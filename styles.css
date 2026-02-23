@@ -116,8 +116,7 @@ body{
 
 
 
-.btn-primary{
-  background:#4f46e5;
+.btn-primary{ background: #ff2d55 !important; }
   color:#fff;
   font-weight:600;
   border:none;
