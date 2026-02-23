@@ -385,3 +385,28 @@ body{
   height: 100%;
   border: none;
 }
+
+.execution-diagram{
+  height: 180px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.diagram-text{
+  padding: 10px 18px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 10px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.arrow{
+  opacity: 0.4;
+  font-size: 18px;
+}
