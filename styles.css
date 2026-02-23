@@ -260,8 +260,9 @@ body{
 .link:hover{text-decoration:underline}
 
 .project__thumb{
-  display:flex;
-  align-items:stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .thumb{
   width:100%;
@@ -387,7 +388,8 @@ body{
 }
 
 .execution-diagram{
-  height: 180px;
+  height: 220px;
+  width: 100%;
   border-radius: 16px;
   background: linear-gradient(135deg, #0f172a, #1e293b);
   display: flex;
