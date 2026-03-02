@@ -484,3 +484,8 @@ body{
 .thumblink{
   width: 100%;
 }
+
+.project__thumb img.project-image {
+  object-fit: contain;
+  background: #fff;
+}
