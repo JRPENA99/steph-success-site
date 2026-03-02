@@ -46,3 +46,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Escape") closeModal();
   });
 });
+
+document.querySelectorAll(".open-pdf").forEach(el => {
+  el.addEventListener("click", (e) => {
+    e.preventDefault();
+    const pdf = el.getAttribute("data-pdf");
+    openPDF(pdf); // whatever your existing function is called
+  });
+});
