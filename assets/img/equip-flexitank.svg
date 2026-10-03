@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="t"><title id="t">Flexitank: a large liquid bladder fitted inside a 20-foot shipping container</title>
+<ellipse cx="160" cy="154" rx="140" ry="6" fill="#0b1a2b" opacity=".08"/>
+<rect x="20" y="38" width="280" height="110" rx="3" fill="#fff" stroke="#0b1a2b" stroke-width="2.5"/>
+<g stroke="#0b1a2b" stroke-width="1.2" opacity=".35"><path d="M20 50h280M20 136h280"/></g>
+<g stroke="#0b1a2b" stroke-width="1" opacity=".22"><path d="M44 38v12M68 38v12M92 38v12M116 38v12M140 38v12M164 38v12M188 38v12M212 38v12M236 38v12M260 38v12M44 136v12M68 136v12M92 136v12M116 136v12M140 136v12M164 136v12M188 136v12M212 136v12M236 136v12M260 136v12"/></g>
+<rect x="32" y="50" width="256" height="86" fill="#eef4f5"/>
+<rect x="40" y="58" width="238" height="74" rx="34" fill="#0f7b80"/>
+<path d="M62 74c40-10 150-10 196 0" fill="none" stroke="#9fe0e2" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<path d="M70 118c50 6 130 6 180 0" fill="none" stroke="#0a5d61" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+<g stroke="#0b1a2b" stroke-width="2"><path d="M284 50v86"/><path d="M290 54v78M296 54v78" opacity=".5"/></g>
+<rect x="268" y="112" width="12" height="10" rx="2" fill="#c46a2b"/><path d="M280 117h8" stroke="#c46a2b" stroke-width="3"/>
+<g fill="#0b1a2b"><rect x="18" y="36" width="12" height="9" rx="1.5"/><rect x="290" y="36" width="12" height="9" rx="1.5"/><rect x="18" y="141" width="12" height="9" rx="1.5"/><rect x="290" y="141" width="12" height="9" rx="1.5"/></g>
+<text x="20" y="26" font-family="JetBrains Mono, Consolas, monospace" font-size="10" letter-spacing="1.5" fill="#5a6573">20&#8217; CONTAINER · FLEXITANK</text>
+</svg>

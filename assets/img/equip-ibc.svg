@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 180" role="img" aria-labelledby="t"><title id="t">Two IBC totes: plastic liquid containers inside steel cages on pallets</title>
+<defs>
+<g id="ibc">
+<path d="M64 46l18-12h96l-18 12Z" fill="#fff" stroke="#0b1a2b" stroke-width="2"/>
+<path d="M160 46l18-12v86l-18 12Z" fill="#eef4f5" stroke="#0b1a2b" stroke-width="2"/>
+<ellipse cx="121" cy="40" rx="9" ry="3.5" fill="#c46a2b"/>
+<rect x="64" y="46" width="96" height="86" fill="#fff" stroke="#0b1a2b" stroke-width="2"/>
+<rect x="70" y="52" width="84" height="74" rx="6" fill="#f3f7f8"/>
+<path d="M70 82h84v38a6 6 0 0 1-6 6H76a6 6 0 0 1-6-6Z" fill="#0f7b80" opacity=".9"/>
+<path d="M70 82h84" stroke="#9fe0e2" stroke-width="2"/>
+<g stroke="#0b1a2b" stroke-width="1.4" opacity=".7"><path d="M88 46v86M112 46v86M136 46v86M64 68h96M64 90h96M64 112h96"/></g>
+<rect x="107" y="124" width="10" height="8" rx="1.5" fill="#0b1a2b"/>
+<rect x="58" y="132" width="108" height="8" fill="#0b1a2b"/>
+<path d="M166 132l12-8v8l-12 8Z" fill="#1c3854"/>
+<g fill="#0b1a2b"><rect x="60" y="140" width="10" height="6"/><rect x="107" y="140" width="10" height="6"/><rect x="154" y="140" width="10" height="6"/></g>
+</g>
+</defs>
+<ellipse cx="160" cy="150" rx="140" ry="6" fill="#0b1a2b" opacity=".08"/>
+<use href="#ibc" xlink:href="#ibc" x="-36" y="0"/>
+<use href="#ibc" xlink:href="#ibc" x="100" y="0"/>
+<text x="20" y="22" font-family="JetBrains Mono, Consolas, monospace" font-size="10" letter-spacing="1.5" fill="#5a6573">IBC / TOTE · ~1,000 L EACH</text>
+</svg>
